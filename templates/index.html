@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2>AI Video Maker</h2>
+    <form method="post" action="/generate" enctype="multipart/form-data">
+      Text: <input type="text" name="text"><br><br>
+      Resolution:
+      <select name="resolution">
+        <option value="360p">360p</option>
+        <option value="720p" selected>720p</option>
+        <option value="1080p">1080p</option>
+      </select><br><br>
+      Image: <input type="file" name="image"><br><br>
+      <input type="submit" value="Generate Video">
+    </form>
+  </body>
+</html>
